@@ -1,0 +1,17 @@
+# .gitignore for nuscenes-devkit-practice
+# Ignore Python cache and environment files
+__pycache__/
+*.py[cod]
+.env
+.venv
+env/
+venv/
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+# Ignore OS files
+.DS_Store
+Thumbs.db
+# Ignore log files
+*.log
+# Ignore folders (customize as needed)
+/nuscenes
